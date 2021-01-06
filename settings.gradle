@@ -1,0 +1,3 @@
+rootProject.name='NavgationPro'
+include ':app'
+include ':clllib'
