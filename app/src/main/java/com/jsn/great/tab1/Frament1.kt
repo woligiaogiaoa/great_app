@@ -1,4 +1,4 @@
-package com.jsn.navgationpro.tab1
+package com.jsn.great.tab1
 
 import android.content.Context
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.jsn.navgationpro.databinding.Fragment1Binding
+import com.jsn.great.databinding.Fragment1Binding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_1.*
 

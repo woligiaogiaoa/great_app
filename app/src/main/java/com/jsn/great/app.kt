@@ -1,4 +1,4 @@
-package com.jsn.navgationpro
+package com.jsn.great
 
 import android.app.Application
 import android.content.Context
@@ -6,9 +6,9 @@ import android.util.Log
 import com.bun.miitmdid.core.MdidSdkHelper
 import com.bun.miitmdid.interfaces.IIdentifierListener
 import com.bun.miitmdid.interfaces.IdSupplier
-import com.jsn.navgationpro.db.User
-import com.jsn.navgationpro.db.UserRoomDatabase
-import com.jsn.navgationpro.tab1.showToast
+import com.jsn.great.db.User
+import com.jsn.great.db.UserRoomDatabase
+import com.jsn.great.tab1.showToast
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

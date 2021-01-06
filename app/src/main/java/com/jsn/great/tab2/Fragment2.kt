@@ -1,5 +1,4 @@
-package com.jsn.navgationpro.tab2
-import android.app.Activity
+package com.jsn.great.tab2
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,17 +7,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.jsn.navgationpro.databinding.Fragment2Binding
-import dagger.Module
-import dagger.Provides
-import dagger.hilt.InstallIn
+import com.jsn.great.databinding.Fragment2Binding
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.components.ActivityComponent
-import dagger.hilt.android.components.FragmentComponent
-import dagger.hilt.android.scopes.FragmentScoped
-import kotlinx.android.synthetic.main.fragment_2.*
-import javax.inject.Inject
-import javax.inject.Qualifier
 
 fun Context.showText(s:String)=Toast.makeText(this,s,Toast.LENGTH_SHORT).show()
 

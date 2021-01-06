@@ -1,6 +1,5 @@
-package com.jsn.navgationpro.data
+package com.jsn.great.data
 
-import androidx.lifecycle.MutableLiveData
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

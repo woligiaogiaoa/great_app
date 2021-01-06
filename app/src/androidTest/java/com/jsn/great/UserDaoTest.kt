@@ -1,12 +1,12 @@
-package com.jsn.navgationpro
+package com.jsn.great
 
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.jsn.navgationpro.db.User
-import com.jsn.navgationpro.db.UserDao
-import com.jsn.navgationpro.db.UserRoomDatabase
+import com.jsn.great.db.User
+import com.jsn.great.db.UserDao
+import com.jsn.great.db.UserRoomDatabase
 import junit.framework.Assert.assertEquals
 import kotlinx.coroutines.runBlocking
 import org.junit.After

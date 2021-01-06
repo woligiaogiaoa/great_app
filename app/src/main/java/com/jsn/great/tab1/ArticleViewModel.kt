@@ -1,13 +1,13 @@
-package com.jsn.navgationpro.tab1
+package com.jsn.great.tab1
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jsn.navgationpro.data.ArticleListEntity
-import com.jsn.navgationpro.data.ArticleRepository
-import com.jsn.navgationpro.data.BaseData
+import com.jsn.great.data.ArticleListEntity
+import com.jsn.great.data.ArticleRepository
+import com.jsn.great.data.BaseData
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

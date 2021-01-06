@@ -1,4 +1,4 @@
-package com.jsn.navgationpro.data
+package com.jsn.great.data
 data class ArticleListEntity(
     var curPage: Int,
     var datas: List<Data>,

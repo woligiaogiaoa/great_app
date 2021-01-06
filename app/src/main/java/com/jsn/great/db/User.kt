@@ -1,4 +1,4 @@
-package com.jsn.navgationpro.db
+package com.jsn.great.db
 
 import android.content.Context
 import androidx.room.*

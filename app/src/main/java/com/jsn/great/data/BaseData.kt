@@ -1,4 +1,4 @@
-package com.jsn.navgationpro.data
+package com.jsn.great.data
 
 class BaseData<T>(var `data`: T,
                   var errorCode: Int,

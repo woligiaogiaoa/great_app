@@ -1,4 +1,4 @@
-package com.jsn.navgationpro
+package com.jsn.great
 
 import org.junit.Test
 

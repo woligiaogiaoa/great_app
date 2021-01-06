@@ -1,6 +1,5 @@
-package com.jsn.navgationpro
+package com.jsn.great
 
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem

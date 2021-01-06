@@ -1,16 +1,15 @@
-package com.jsn.navgationpro.floata
+package com.jsn.great.floata
 
 import android.app.Application
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
-import android.view.View
 import android.widget.ImageView
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
-import com.jsn.navgationpro.App
-import com.jsn.navgationpro.R
+import com.jsn.great.App
+import com.jsn.great.R
 
 class Pop :PopupWindow {
 
