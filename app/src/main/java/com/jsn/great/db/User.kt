@@ -22,21 +22,20 @@ interface UserDao{
     suspend fun insert(user: User)
 }
 
-@Database(entities =[User::class],version = 1) //todo: implement a migration
+@Database(entities =[User::class],version = 1,exportSchema = false) //todo: implement a migration
 abstract class UserRoomDatabase:RoomDatabase(){
-
     companion object{
 
         @Volatile private var sInstance:UserRoomDatabase?=null
 
         fun getInstance(context: Context): UserRoomDatabase {
             sInstance?: synchronized(this){
-                sInstance?: build(context).also { sInstance=it }
+                sInstance?: buildDatabase(context).also { sInstance=it }
             }
             return sInstance!!
         }
 
-        fun build(context: Context): UserRoomDatabase {
+        fun buildDatabase(context: Context): UserRoomDatabase {
             val instance = Room.databaseBuilder(
                 context.applicationContext,
                 UserRoomDatabase::class.java,

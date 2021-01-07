@@ -17,7 +17,7 @@ add_library( # Specifies the name of the library.
              SHARED
 
              # Provides a relative path to your source files
-             src/main/cpp/native-lib.cpp )
+             main/cpp/native-lib.cpp )
 
 find_library(
              log-lib
